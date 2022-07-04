@@ -1,0 +1,108 @@
+/*#page {
+    width: 600px;
+    margin: 10px auto;
+}*/
+
+body {
+    background-color: rgb(20, 50, 61);
+    color: #ffffffb2;
+    margin-left: 3.5%;
+}
+
+.central {
+    text-align: center;
+}
+
+.foto-p {
+    display: flex;
+}
+
+@media only screen and (max-width: 600px) {
+    div.foto-p {
+       display: flex;
+       flex-direction: column;
+    }
+
+    .fim {
+        margin-left: 7%;
+    }
+
+    div .foto {
+        margin: auto 20%;
+    }
+
+    div .ico {
+        display: flex;
+        flex-direction: column;
+        margin: 3% 35%;
+    }
+
+    div.whats {
+        display: flex;
+        flex-direction: column;
+        margin: 3% 10%;
+        height: 3rem;
+        width: 70%;
+        border-radius: 50px;
+        
+
+    }
+
+    h2 {
+        margin: 3% 20%;
+    }
+}
+
+.paragrafo {
+    margin-left: 7%;
+    margin-right: 3%;
+}
+
+.ico {
+    height: 3rem;
+    width: 6rem;
+    display: inline-block;
+    color: #ffffffb2 ;
+    font-size: 14px;
+    margin: 0 0.3%;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 16px;
+    border-radius: 10px;
+}
+
+
+a {
+    color: white;
+}
+
+.whats {
+    border: solid 2px blueviolet;
+    padding: 12px;
+    border-radius: 50px;
+    text-decoration: none;
+    width: 30%;
+    margin: 2% auto;
+    text-align: center;
+}
+
+.whats a, .paragrafo a {
+    color: #ffffffb2;
+}
+
+.instagram {
+    background: #d6249f;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 0%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+}
+
+.linkedin {
+    background-color: #0072b1;
+}
+
+.facebook {
+    background-color: #254486;
+}
+
+.github{
+    background-color: #171515 ;
+}
