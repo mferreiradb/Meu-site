@@ -21,6 +21,7 @@ body {
     div.foto-p {
        display: flex;
        flex-direction: column;
+       margin: auto 7%;
     }
 
     .fim {
