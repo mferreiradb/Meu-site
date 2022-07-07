@@ -21,9 +21,11 @@ body {
     div.foto-p {
        display: flex;
        flex-direction: column;
+        width: 100%;
     }
 
     .fim {
+        width: 100%;
     }
 
     div .foto {
@@ -48,7 +50,8 @@ body {
     }
     
     .paragrafo {
-}
+        width: 100%;
+    }
 
 
     h2 {
