@@ -17,50 +17,6 @@ body {
     display: flex;
 }
 
-@media only screen and (max-width: 720px) {
-    div.foto-p {
-       display: flex;
-       flex-direction: column;
-    }
-
-    .fim {
-    }
-
-    div .foto {
-        margin: auto 20%;
-    }
-
-    div .ico {
-        display: flex;
-        flex-direction: column;
-        margin: 3% 35%;
-    }
-
-    div.whats {
-        display: flex;
-        flex-direction: column;
-        margin: 3% 10%;
-        height: 3rem;
-        width: 70%;
-        border-radius: 50px;
-        
-
-    }
-    
-    .paragrafo {
-    }
-
-
-    h2 {
-        margin: 3% 20%;
-    }
-}
-
-.paragrafo {
-    margin-left: 7%;
-    margin-right: 3%;
-}
-
 .ico {
     height: 3rem;
     width: 6rem;
@@ -108,4 +64,50 @@ a {
 
 .github{
     background-color: #171515 ;
+}
+
+@media only screen and (max-width: 720px) {
+    div.foto-p {
+       display: flex;
+       flex-direction: column;
+    }
+
+    .fim {
+        margin: auto 3%;
+    }
+
+    div .foto {
+        margin: auto 20%;
+    }
+
+    div .ico {
+        display: flex;
+        flex-direction: column;
+        margin: 3% 35%;
+    }
+
+    div.whats {
+        display: flex;
+        flex-direction: column;
+        margin: 3% 10%;
+        height: 3rem;
+        width: 70%;
+        border-radius: 50px;
+        
+
+    }
+    
+    .paragrafo {
+        margin: auto 3%;
+    }
+
+
+    h2 {
+        margin: 3% 20%;
+    }
+}
+
+.paragrafo {
+    margin-left: 7%;
+    margin-right: 3%;
 }
