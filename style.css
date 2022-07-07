@@ -21,11 +21,9 @@ body {
     div.foto-p {
        display: flex;
        flex-direction: column;
-       margin: auto 0;
     }
 
     .fim {
-        margin: auto 0;
     }
 
     div .foto {
@@ -50,7 +48,6 @@ body {
     }
     
     .paragrafo {
-    margin: auto 0;
 }
 
 
