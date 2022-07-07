@@ -25,7 +25,7 @@ body {
     }
 
     .fim {
-        margin-left: auto;
+        margin: auto 0;
     }
 
     div .foto {
@@ -50,7 +50,7 @@ body {
     }
     
     .paragrafo {
-    margin-left: auto;
+    margin: auto 0;
 }
 
 
