@@ -117,5 +117,6 @@ a {
 
     h2 {
         margin: 3% 24%;
+        min-width: 320px;
     }
 }
