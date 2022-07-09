@@ -75,6 +75,10 @@ a {
     margin-right: 3%;
 }
 
+h2 {
+    min-width: 320px;
+}
+
 @media only screen and (max-width: 720px) {
     .central {
         margin: 3% 25%;
