@@ -120,8 +120,8 @@ h2 {
     
 
     h2 {
-        margin: 3% 24%;
-        width: calc(100% - 48%);
+        margin: 3% 23%;
+        width: calc(100% - 46%);
         min-width: 320px;
     }
 }
