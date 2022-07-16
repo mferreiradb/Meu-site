@@ -6,31 +6,36 @@
 body {
     background-color: rgb(20, 50, 61);
     color: #ffffffb2;
-    margin-left: 3.5%;
+    margin: auto 3.5%
 }
 
 .central {
-    margin-left: 45%;
-    margin-right: 45%;
-    width: calc(100% - 80%);
-    min-width: 320px;
+    text-align: center;
 }
 
 .foto-p {
     display: flex;
 }
 
+.paragrafo {
+    margin: auto 7%;
+}
+
+.link-contato {
+    display: flex;
+    flex-flow: row wrap;
+}
+
 .ico {
     height: 3rem;
-    width: 6rem;
-    display: inline-block;
+    width: 8rem;
     color: #ffffffb2 ;
     font-size: 14px;
-    margin: 0 0.3%;
     text-align: center;
     box-sizing: border-box;
     padding-top: 16px;
     border-radius: 10px;
+    margin: 0.3rem;
 }
 
 
@@ -69,12 +74,6 @@ a {
     background-color: #171515 ;
 }
 
-
-.paragrafo {
-    margin-left: 7%;
-    margin-right: 3%;
-}
-
 h2 {
     min-width: 320px;
 }
@@ -94,19 +93,21 @@ h2 {
     .paragrafo {
         margin: auto 3%;
     }
+
+    .contato {
+        text-align: center;
+    }
     
     .fim {
         margin: auto 3%;
     }
 
-    div.foto {
-        margin: auto 20%;
+    .ico {
+        margin-left: 33%;
     }
 
-    div.ico {
-        display: flex;
-        flex-direction: column;
-        margin: 3% 35%;
+    div.foto {
+        margin: auto 20%;
     }
 
     div.whats {
@@ -118,10 +119,4 @@ h2 {
         border-radius: 50px; 
     }
     
-
-    h2 {
-        margin: 3% 23%;
-        width: calc(100% - 46%);
-        min-width: 320px;
-    }
 }
