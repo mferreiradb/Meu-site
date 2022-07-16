@@ -80,10 +80,10 @@ h2 {
 
 @media only screen and (max-width: 720px) {
     .central {
-        margin: 3% 25%;
-        width: calc(100vw - 50%);
+        margin: 3% 20%;
+        width: calc(100vw - 40%);
     }
-
+    
     div.foto-p {
        display: flex;
        flex-direction: column;
