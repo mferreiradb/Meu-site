@@ -23,7 +23,6 @@ body {
 
 .link-contato {
     display: flex;
-    flex-flow: row wrap;
 }
 
 .ico {
