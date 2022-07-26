@@ -126,7 +126,7 @@ a {
     .paragrafo {
         display: flex;
         flex-direction: column;
-        width: 90vw;
+        width: calc(100vw - 40px);
     }
 
     .contato h2 {
