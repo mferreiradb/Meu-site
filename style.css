@@ -1,64 +1,102 @@
-/*#page {
-    width: 600px;
-    margin: 10px auto;
-}*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 
 body {
     background-color: rgb(20, 50, 61);
     color: #ffffffb2;
-    margin: auto 3.5%
 }
 
 .central {
-    text-align: center;
+    /*border: solid 5px red;*/
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
 }
 
 .foto-p {
+    /*/border: solid 5px blue;*/
     display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    padding: 20px;
+    margin: 10px auto;
 }
 
 .paragrafo {
-    margin: auto 7%;
+    /*border: solid 5px blueviolet;*/
+    width: 75%;
+}
+
+.contato {
+    /*border: #0072b1 5px solid;*/
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.contato h2 {
+    margin: 0 0 1% 2%;
 }
 
 .link-contato {
+    /*border: solid 5px yellowgreen;*/
     display: flex;
+    flex-direction: row;
 }
 
 .ico {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 3rem;
     width: 8rem;
     color: #ffffffb2 ;
     font-size: 14px;
-    text-align: center;
-    box-sizing: border-box;
-    padding-top: 16px;
     border-radius: 10px;
-    margin: 0.3rem;
+    margin-right: 0.6rem;
+    transition:  filter 0.2s;
 }
 
+.ico:hover {
+    filter: brightness(1.2);
+    cursor: pointer;
+}
 
-a {
-    color: white;
+.fim {
+    width: 75%;
+    margin: 2% 0;
 }
 
 .whats {
+    /*border: #fdf497 1px solid;*/
+    display: flex;
+    justify-content: center;
+}
+
+.whats a {
     border: solid 2px blueviolet;
-    padding: 12px;
+    padding: 1.2%;
     border-radius: 50px;
     text-decoration: none;
     width: 30%;
-    margin: 2% auto;
     text-align: center;
+    transition: filter 0.2s;
 }
 
-.whats a, .paragrafo a {
+.whats a:hover {
+    background-color: blueviolet;
+}
+
+a {
     color: #ffffffb2;
 }
 
 .instagram {
     background: #d6249f;
-    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 0%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+    background: radial-gradient(circle at 0 107%, #fdf497 0%, #fdf497 0%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
 }
 
 .linkedin {
@@ -73,49 +111,54 @@ a {
     background-color: #171515 ;
 }
 
-h2 {
-    min-width: 320px;
-}
-
 @media only screen and (max-width: 720px) {
-    .central {
-        margin: 3% 20%;
-        width: calc(100vw - 40%);
-    }
-    
-    div.foto-p {
-       display: flex;
-       flex-direction: column;
-       margin: auto 0;
-    }
-    
-    .paragrafo {
-        margin: auto 3%;
+    .apresentacao {
+        display: flex;
+        flex-direction: column;
     }
 
-    .contato {
-        text-align: center;
+    .foto-p {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
-    
-    .fim {
-        margin: auto 3%;
+
+    .paragrafo {
+        display: flex;
+        flex-direction: column;
+        width: 90vw;
+    }
+
+    .contato h2 {
+        /*background-color: #d6249f;*/
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .link-contato {
+        /*background-color: #4824d6;*/
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 
     .ico {
-        margin-left: 33%;
+        margin: 5px 0;
     }
 
-    div.foto {
-        margin: auto 20%;
-    }
-
-    div.whats {
+    .fim {
+        /*background-color: red;*/
         display: flex;
         flex-direction: column;
-        margin: 3% 10%;
-        height: 3rem;
-        width: 70%;
-        border-radius: 50px; 
+        width: 90vw;
     }
-    
+
+    .whats a {
+        display: flex;
+        justify-content: center;
+        flex-basis: 90vw;
+        padding: 5%;
+    }
 }
