@@ -152,7 +152,7 @@ a {
         /*background-color: red;*/
         display: flex;
         flex-direction: column;
-        width: 100vw;
+        width: calc(100vw - 20px);
         padding: 10px;
     }
 
